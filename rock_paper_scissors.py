@@ -11,7 +11,7 @@ while True:
      
     
     computer=(random.choice(choices))
-    print("computer chose:"+computer) 
+    print("computer chose:" +computer) 
     
     if(human==choices[0] and computer==choices[2]):
         print(name+" won this time, well done "+name)
